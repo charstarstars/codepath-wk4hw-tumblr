@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BD74921C840DE50097A38A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD74911C840DE50097A38A /* HomeViewController.swift */; };
+		04BD74941C840EB80097A38A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD74931C840EB80097A38A /* TabBarViewController.swift */; };
+		04BD74961C8411810097A38A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD74951C8411810097A38A /* SearchViewController.swift */; };
+		04BD74981C8412270097A38A /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD74971C8412270097A38A /* ComposeViewController.swift */; };
+		04BD749A1C8414BA0097A38A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD74991C8414BA0097A38A /* AccountViewController.swift */; };
+		04BD749C1C8415040097A38A /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD749B1C8415040097A38A /* TrendingViewController.swift */; };
+		04BD749E1C8430480097A38A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD749D1C8430480097A38A /* LoginViewController.swift */; };
 		04CA56031C7FEA5500E5B086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA56021C7FEA5500E5B086 /* AppDelegate.swift */; };
 		04CA56051C7FEA5500E5B086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA56041C7FEA5500E5B086 /* ViewController.swift */; };
 		04CA56081C7FEA5500E5B086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA56061C7FEA5500E5B086 /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04BD74911C840DE50097A38A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04BD74931C840EB80097A38A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		04BD74951C8411810097A38A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04BD74971C8412270097A38A /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		04BD74991C8414BA0097A38A /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		04BD749B1C8415040097A38A /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		04BD749D1C8430480097A38A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		04CA55FF1C7FEA5500E5B086 /* codepath_wk4hw_tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codepath_wk4hw_tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CA56021C7FEA5500E5B086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CA56041C7FEA5500E5B086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +114,13 @@
 				04CA56021C7FEA5500E5B086 /* AppDelegate.swift */,
 				04CA56041C7FEA5500E5B086 /* ViewController.swift */,
 				04CA56061C7FEA5500E5B086 /* Main.storyboard */,
+				04BD749D1C8430480097A38A /* LoginViewController.swift */,
+				04BD749B1C8415040097A38A /* TrendingViewController.swift */,
+				04BD74991C8414BA0097A38A /* AccountViewController.swift */,
+				04BD74971C8412270097A38A /* ComposeViewController.swift */,
+				04BD74951C8411810097A38A /* SearchViewController.swift */,
+				04BD74931C840EB80097A38A /* TabBarViewController.swift */,
+				04BD74911C840DE50097A38A /* HomeViewController.swift */,
 				04CA56091C7FEA5500E5B086 /* Assets.xcassets */,
 				04CA560B1C7FEA5500E5B086 /* LaunchScreen.storyboard */,
 				04CA560E1C7FEA5500E5B086 /* Info.plist */,
@@ -256,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BD749E1C8430480097A38A /* LoginViewController.swift in Sources */,
+				04BD74961C8411810097A38A /* SearchViewController.swift in Sources */,
+				04BD749C1C8415040097A38A /* TrendingViewController.swift in Sources */,
+				04BD74941C840EB80097A38A /* TabBarViewController.swift in Sources */,
+				04BD749A1C8414BA0097A38A /* AccountViewController.swift in Sources */,
 				04CA56051C7FEA5500E5B086 /* ViewController.swift in Sources */,
+				04BD74981C8412270097A38A /* ComposeViewController.swift in Sources */,
 				04CA56031C7FEA5500E5B086 /* AppDelegate.swift in Sources */,
+				04BD74921C840DE50097A38A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +512,7 @@
 				04CA56291C7FEA5500E5B086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04CA562A1C7FEA5500E5B086 /* Build configuration list for PBXNativeTarget "codepath_wk4hw_tumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +521,7 @@
 				04CA562C1C7FEA5500E5B086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04CA562D1C7FEA5500E5B086 /* Build configuration list for PBXNativeTarget "codepath_wk4hw_tumblrUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +530,7 @@
 				04CA562F1C7FEA5500E5B086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
